@@ -1,11 +1,11 @@
 import streamlit as st
-import datetime
-import appdirs as ad
-ad.user_cache_dir = lambda *args: "/tmp"
 import matplotlib.pyplot as plt
-import yfinance as yf
+import datetime
 import plotly.graph_objs as go
 import pandas as pd
+import appdirs as ad
+ad.user_cache_dir = lambda *args: "/tmp"
+import yfinance as yf
 
 # Specify title and logo for the webpage.
 st.set_page_config(page_icon=":bar_chart:", page_title='My Website', layout='centered')
